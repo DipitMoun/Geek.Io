@@ -1,0 +1,247 @@
+
+/*CSS DU INDEX.HTML*/
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header{
+height: 100vh;
+width: 100px;
+background-size: cover;
+background: var(--bg-color);
+box-shadow: 0 1px 6px 0 rgb(32, 33, 36 / 5%);
+padding: 18px 14px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+transition: all .6s;
+
+}
+
+.navbar{
+    position: absolute;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.navbar a{
+    color: #e4e4e4;
+    transform: translateY(10px);
+    transition: all .6s;
+    text-decoration: none;
+    font-display: initial;
+    
+}
+
+.navbar .logo{
+    font-size: 200;
+    font-weight: bold;
+}
+
+.navbar .nav-link ul{
+    display: flex;
+}
+
+.navbar .nav-link{
+    display: flex;
+    align-items: center;
+}
+
+.navbar .nav-link ul li{
+    margin: 0 25px;
+}
+
+.navbar .nav-link ul li.active{
+    color: rgb(0, 98, 255);
+    font-weight: 300;
+}
+
+section{
+    padding: 90px 14px 70px;
+    color: #e4e4e4;
+    top: 100px;
+    position: absolute;
+    left: 30px;
+}
+
+i{
+    color: rgb(48, 48, 244);
+}
+a{
+    text-decoration: none;
+}
+
+.pic1{
+    width: 500px;
+    height: 500px;
+    position: relative;
+    right: 0px;
+    left: 600px;
+    top: 100px;
+    border-radius: 6px;
+}
+
+.btn{
+    top: 100px;
+    display: inline-block;
+    padding: 14px 42px;
+    background: #e4e4e4;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    border: 2px solid transparent;
+    transition:  all .6s;
+    border-radius: 60px;
+}
+
+.btn:hover{
+    transform: scale(0.9) translateY(-10px);
+    border: 2px solid;
+    background: transparent;
+    color: #e4e4e4;
+}
+
+.home-text h1{
+    font-size: xx-large;
+    font-weight: 700px;
+    line-height: 1.1;
+    margin-bottom: 20px;
+}
+
+.navbar a:hover{
+    transform: scale(0.9) translateY(-10px);
+    border: 2px solid;
+    background: transparent;
+    color: #e4e4e4;
+    transition:  all .6s;
+    border-radius: 20px;
+}
+
+/* .main-brands{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 4px;
+}
+
+.brands-c img{
+    width: 40%;
+    height: auto;
+} */
+
+.n-product{
+      position: absolute;
+      top: 500px;
+}
+
+.center-text{
+    
+    text-align: center;
+    top: 100px;
+}
+
+
+.n-content{
+    display: flex;
+    grid-template-columns:repeat(auto-fit, minmax(320px, 1fr));
+    align-items: center;
+    gap: 1.5rem;
+    margin-top: 4rem;
+    padding: 5px 20px;
+    box-shadow: 10px;
+    margin-bottom: 20px;
+    
+    flex-wrap: wrap;
+    width: auto;
+}
+.row{
+    width: 350px;
+}
+.row-img{
+    overflow: hidden;
+    border-radius: 18px;
+    margin-bottom: 15px;
+    margin: 50px;
+    align-items: center;
+}
+
+.row-img img{
+    display: block;
+    width: 100%;
+    height: 250px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.row-img:hover img{
+    transform: scale(1.1);
+}
+
+.stars a{
+    color: gold;
+}
+
+.row-in{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5px;
+    flex-basis: 24px;
+}
+
+.n-btn{
+    text-align: center;
+    margin-top: 4rem;
+
+}
+
+.btn2{
+    display: inline-block;
+    padding: 14px 42px;
+    background: transparent;
+    color: #e4e4e4;
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid ;
+    color: #e4e4e4;
+    border-radius: 30px;
+    transition: all .6s;
+}
+
+.btn2:hover{
+    background: #e4e4e4;
+    border: 1px solid;
+    color: black;
+    transform: scale(0.9) translateY(-6px);
+    
+}
+
+/* css detail produit */
+
+video{
+    width: 700px;
+    height: 400px;
+    position: relative;
+    right: 0px;
+    left:400px;
+    top: -500px;
+    border-radius: 60px;
+}
+
+.n-productd{
+    top: 90px;
+}
+
+.n-productg{
+    top: 100px;
+}
