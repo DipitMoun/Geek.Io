@@ -47,19 +47,17 @@
 
         <div class="logreg-box">
         <div class="form-box">
-            <form action="#">
+            <form method="POST" action="register.php">
                 <h2>Connexion</h2>
 
                 <div class="input-box">
                     <span class="icon"><i class='bx bxs-envelope'></i></span>
-                    <input type="email" required>
-                    <label for="email">Adresse mail</label>
+                    <input type="email" name="email_login" placeholder="Email" required>
                 </div>
 
                 <div class="input-box">
                     <span class="icon"><i class='bx bxs-lock-alt'></i></span>
-                    <input type="password" required>
-                    <label for="password">Mot de passe</label>
+                    <input type="password" name="mot_de_passe_login" placeholder="Mot de passe" required>
                 </div>
 
                 <div class="remember-forgot">
@@ -68,48 +66,13 @@
                     </label>
                     <a href="#">Mot de passe oublier...😅</a>
                 </div>
-                <button type="submit" class="btn"><a href="Index.html" class="btnii">Connexion</a></button>
+                 <button type="submit" name="submit-login" class="btn">Connexion</button>
 
                 <div class="login-register">
                     <p>Vous n'avez pas encore de compte ? <a href="register.html" class="register-link"> Inscrivez-vous!</a></p>
                 </div>
             </form>
         </div>
-
-        <!--<div class="form-box register">
-            <form action="#">
-                <h2>Inscription</h2>
-
-                <div class="input-box">
-                    <span class="icon"><i class='bx bxs-user'></i></span>
-                    <input type="text" required>
-                    <label for="name">Nom</label>
-                </div>
-
-                <div class="input-box">
-                    <span class="icon"><i class='bx bxs-envelope'></i></span>
-                    <input type="email" required>
-                    <label for="email">Adresse mail</label>
-                </div>
-
-                <div class="input-box">
-                    <span class="icon"><i class='bx bxs-lock-alt'></i></span>
-                    <input type="password" required>
-                    <label for="password">Mot de passe</label>
-                </div>
-
-                <div class="remember-forgot">
-                    <label for="remember">
-                        <input type="checkbox" required>J'accepte les termes et conditions.</input>
-                    </label>
-                </div>
-                <button type="submit" class="btn"><a href="Index.html" class="btnI">Inscription</a></button>
-
-                <div class="login-register">
-                    <p>Vous avez deja un compte ? <a href="#" class="login-link"> Connectez-vous!</a></p>
-                </div>
-            </form>
-        </div>-->
 
         </div>
     </div>

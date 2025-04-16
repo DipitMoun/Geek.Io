@@ -21,6 +21,7 @@ align-items: center;
 justify-content: space-between;
 transition: all .6s;
 
+
 }
 
 .navbar{
@@ -122,22 +123,9 @@ a{
     border: 2px solid;
     background: transparent;
     color: #e4e4e4;
-    transition:  all .6s;
+    transition:  all .2s;
     border-radius: 20px;
 }
-
-/* .main-brands{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    gap: 4px;
-}
-
-.brands-c img{
-    width: 40%;
-    height: auto;
-} */
 
 .n-product{
       position: absolute;
@@ -244,4 +232,234 @@ video{
 
 .n-productg{
     top: 100px;
+}
+
+.search-bar{
+    width:100px;
+    height: 45px;
+    background: transparent;
+    border: 2px solid #e4e4e4;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input{
+    width: 100px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #e4e4e4;
+    padding-left: 10px;
+}
+.search-bar input::placeholder{
+    color: #e4e4e4;
+
+}
+.search-bar button{
+    width: 50px;
+    height: 50px;
+    background: transparent;
+    border-radius: 60px;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.search-bar button i{
+    font-size: 22px;
+    color: #e4e4e4;
+}
+
+.pc{
+    background: transparent;
+    border: 1px solid;
+    color: rgb(229, 229, 229);
+    border-radius: 20px;
+    padding: 10px;
+    top: 800px;
+    
+}
+
+.btn3{
+    display: inline-block;
+    padding: 14px 42px;
+    background: transparent;
+    color: #e4e4e4;
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid ;
+    color: #e4e4e4;
+    border-radius: 30px;
+    transition: all .6s;
+    top: 100px;
+}
+
+.btn3:hover{
+    background: #e4e4e4;
+    border: 1px solid;
+    color: black;
+    transform: scale(0.9) translateY(-6px);
+    
+}
+
+.pic-forum{
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    right: 0px;
+    left: 600px;
+    top: 100px;
+}
+
+.forum-gow{
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+article { background-color: transparent;
+    padding: 30px;
+    max-width: 800px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    border: 1px solid;
+         }
+
+p { line-height: 1.6; color: rgb(195, 195, 195); }
+
+/* avis */
+
+.reviews-form {
+    background-color: var(--light-color);
+    top: 600px;
+    left: 800px;
+  }
+  
+  .review-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 600;
+  }
+  
+  .form-group input,
+  .form-group textarea,
+  .form-group select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid var(--border-color);
+    color: black;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1rem;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+  }
+  
+  .rating-select {
+    display: flex;
+    align-items: center;
+  }
+  
+  .star-rating {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 1.5rem;
+  }
+  
+  .star-rating input {
+    display: none;
+  }
+  
+  .star-rating label {
+    cursor: pointer;
+    color: var(--border-color);
+    color: black;
+    margin: 0 2px;
+    transition: var(--transition);
+  }
+  
+  .star-rating label:hover,
+  .star-rating label:hover ~ label,
+  .star-rating input:checked ~ label {
+    color: black;
+  }
+  
+  /* style CSS pour les revues */
+  
+  .reviews-list {
+    background-color: white;
+  }
+  
+  .reviews {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 30px;
+  }
+  
+  .review-card {
+    background-color: var(--light-color);
+    color: black;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+  }
+  
+  .review-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .reviewer-name {
+    font-weight: 600;
+  }
+  
+  .review-date {
+    color: var(--text-light);
+    font-size: 0.9rem;
+  }
+  
+  .review-rating {
+    color: var(--accent-color);
+    margin-bottom: 15px;
+  }
+  
+  .review-content p {
+    color: var(--text-light);
+  }
+
+  /* fin */
+
+  .pic-def{
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    position: relative;
+    /* right: 0px;
+    left: 600px;
+    top: 100px; */
 }
