@@ -23,13 +23,12 @@ if (isset($_POST['submit-register'])) {
                 } else {
                     $messageSignup[] = "Echec de l'Inscription";
                 }
-            }
-        } else {
-            $messageSignup[] = "Tous les champs sont requies";
-        }
+    // Fin du if ($resultInsert)
+} // Fin du if (tous les champs sont remplis)
+else {
+    $messageSignup[] = "Tous les champs sont requies";
     }
-
-
+}
 
 if (isset($_POST['submit-login'])) {
     $email_login = $_POST['email_login'];
@@ -58,3 +57,5 @@ if (isset($_POST['submit-login'])) {
         $messageLogin[] = "Cette utilisateur n'existe pas";
     }
 }
+}
+?>
